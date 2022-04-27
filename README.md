@@ -3,9 +3,9 @@ This is fork of the tomb finance on bsc
 
 ## tokenomic
 
-Bitcose, Mcose, Bsose
+Bitcorse, Mcorse, Bcorse
 
 
 ## server info
 
-Bitcose.finance
+Bitcorse.finance
