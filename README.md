@@ -3,7 +3,7 @@ This is fork of the tomb finance on bsc
 
 ## tokenomic
 
-Bitcorse, Mcorse, Bcorse
+Bitcorse(BCE), Mcorse, Bonse
 
 
 ## server info
