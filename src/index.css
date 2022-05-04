@@ -1,0 +1,183 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  overflow-y: auto;
+  height: 100%;
+}
+
+/* .makeStyles-paper-11, */
+/* .makeStyles-paper-11 h2, */
+/* .MuiTypography-body1,
+.MuiPaper-root, */
+h2 {
+  color: #10e3ff !important;
+}
+
+body {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-position: center center !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik', cursive !important;
+  text-transform: uppercase;
+  color: #f5fdff;
+}
+
+.MuiToolbar-regular {
+  color: #e0e3bd;
+}
+
+.MuiButton-containedPrimary,
+.MuiButton-containedPrimary:hover,
+.MuiListItem-button:hover,
+.MuiButtonBase-root:hover {
+  color: #fff !important;
+}
+
+code {
+  font-family: 'Rubik', monospace;
+}
+
+.wallet-button {
+  color: white;
+  font-family: 'Rubik', sans-serif !important;
+  font-size: 1.2rem !important;
+  text-align: left !important;
+  justify-content: flex-start !important;
+  text-transform: none !important;
+}
+.wallet-button:hover {
+  color: #10e3ff !important;
+}
+
+.navLink {
+  color: white !important;
+}
+
+.navLink:hover {
+  color: #44e9ff !important;
+}
+
+.shinyButton {
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-radius: 15px;
+  font-size: 1rem !important;
+  padding-left: 5px;
+  color: #10e3ff !important;
+  box-shadow: 0px 0px 5px 0px rgb(0, 102, 255);
+}
+
+.shinyButtonDisabled {
+  border-radius: 15px;
+
+  color: grey !important;
+  box-shadow: 0px 0px 5px 0px grey;
+}
+
+.shinyButton:hover {
+  background-color: #10e3ff !important;
+  color: #e7f6ffe4 !important;
+}
+
+.stakeorfarmButton {
+  color: #1cfb19 !important;
+  box-shadow: 0px 0px 5px 0px #1cfb19;
+}
+
+.stakeorfarmButton:hover {
+  background-color: #1cfb19 !important;
+  color: #322221e4 !important;
+}
+
+.shinyButtonSecondary {
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-radius: 15px;
+  font-size: 1rem !important;
+  padding-left: 5px;
+  background-color: #10c7ff !important;
+  color: #051227e4 !important;
+  /* box-shadow: 0px 0px 5px 0px rgba(251,221,76,1); */
+}
+
+.account {
+  display: flex;
+  align-items: center;
+}
+
+.account > img,
+.account > div {
+  margin-right: 8px;
+}
+
+.shinyButtonDisabledSecondary {
+  border-radius: 15px;
+
+  color: grey !important;
+  box-shadow: 0px 0px 5px 0px grey;
+}
+
+.shinyButtonSecondary:hover {
+  background-color: #32e0ff !important;
+  color: #f8e3e2e4 !important;
+  box-shadow: 0px 0px 5px 0px rgba(251, 221, 76, 1);
+}
+
+.navTokenPrice {
+  padding-top: 5px;
+  padding-right: 15px;
+  color: #fff;
+}
+
+.navTokenIcon {
+  height: 30px !important;
+  width: 30px !important;
+  padding-right: 12px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+}
+
+.bce {
+  background-image: url('/bce.png');
+}
+
+.mcorse {
+  background-image: url('/mcorse.png');
+}
+
+.bnb {
+  background-image: url('/bnb.png');
+}
